@@ -1,0 +1,57 @@
+.sectop {
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 30px;
+}
+.sectop h1 {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 70px;
+    font-family: "EB Garamond", serif;
+    color: #BDBDBD;
+    margin: 0;
+}
+@media (max-width: 500px) {
+    .sectop h1 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+}
+.sectop h1 span {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    font-family: "Crimson Text", serif;
+    color: #333333;
+}
+@media (max-width: 500px) {
+    .sectop h1 span {
+      font-size: 40px;
+      line-height: 40px;
+    }
+}
+.sectop .colsearch {
+    display: grid;
+    align-content: end;
+    justify-content: end;
+}
+.sectop .searchwrap {
+    position: relative;
+}
+.sectop .searchwrap img {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+}
+.sectop .searchwrap input {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FAFAFA;
+    font-family: "Crimson Text", serif;
+    font-size: 17px;
+    line-height: 17px;
+    border: none;
+    padding-left: 37px;
+}
+.content {
+    margin-bottom: 300px;
+}

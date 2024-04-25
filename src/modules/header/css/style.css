@@ -1,0 +1,27 @@
+#header {
+    margin-bottom: 50px;
+}
+#header .navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#header .nav-link {
+    margin-right: 50px;
+}
+#header .nav-link:last-child {
+    margin-right: 0;
+}
+#header .nav-link {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #F8F8F8;
+    text-transform: uppercase;
+}
+#header .navbar-brand img {
+    margin-top: 19px;
+}
+#header .navbar-toggler {
+    background-color: #fff;
+}

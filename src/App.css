@@ -1,38 +1,13 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+#root {
+  background-color: #000;
+  font-family: "Crimson Text", serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-width: 1200px) {
+  #root .container, #root .container-lg,  #root .container-md, #root .container-sm, #root .container-xl {
+    max-width: 1140px;
   }
 }

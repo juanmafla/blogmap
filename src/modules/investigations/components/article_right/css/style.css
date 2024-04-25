@@ -1,0 +1,40 @@
+.post {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+@media (min-width: 500px) {
+    .post .post-colimg {
+        padding-left: 0;
+        padding-right: 0
+    };
+}
+.post h3 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 46px;
+    font-family: "EB Garamond", serif;
+    color: #BDBDBD;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.post p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    font-family: "Crimson Text", serif;
+    color: #000;
+}
+.post .vm {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    font-family: "Crimson Text", serif;
+    color: #333333;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.post .vm img {
+    margin-left: 30px;
+}
