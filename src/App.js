@@ -1,39 +1,48 @@
-import React, { useState } from 'react';
-
-import Toast from 'react-bootstrap/Toast';
-import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+import Header from './modules/header/header'
+import Footer from './modules/footer/footer'
+import HomePage from './modules/home/home'
+import InvestigationsPage from './modules/investigations/investigations'
+import ArticlePage from './modules/article/article'
 
 import './App.css';
 
-const ExampleToast = ({ children }) => {
-  const [show, toggleShow] = useState(true);
-
+export default function App() {
   return (
-    <>
-      {!show && <Button onClick={() => toggleShow(true)}>Show Toast</Button>}
-      <Toast show={show} onClose={() => toggleShow(false)}>
-        <Toast.Header>
-          <strong className="mr-auto">React-Bootstrap</strong>
-        </Toast.Header>
-        <Toast.Body>{children}</Toast.Body>
-      </Toast>
-    </>
+    <Router>
+      <Header></Header>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Home />} />
+          <Route path="investigations" element={<Investigations />} />
+          <Route path="article" element={<Article />} />
+        </Route>
+      </Routes>
+      <Footer></Footer>
+    </Router>
   );
-};
+}
 
-const App = () => (
-  <Container className="p-3">
-    <Container className="p-5 mb-4 bg-light rounded-3">
-      <h1 className="header">Welcome To React-Bootstrap</h1>
-      <ExampleToast>
-        We now have Toasts
-        <span role="img" aria-label="tada">
-          🎉
-        </span>
-      </ExampleToast>
-    </Container>
-  </Container>
-);
+function Home() {
+  return (
+    <HomePage></HomePage>
+  );
+}
 
-export default App;
+function Investigations() {
+  return (
+    <InvestigationsPage></InvestigationsPage>
+  );
+}
+
+function Article() {
+  return (
+    <ArticlePage></ArticlePage>
+  );
+}
