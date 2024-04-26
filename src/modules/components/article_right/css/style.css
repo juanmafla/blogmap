@@ -2,13 +2,6 @@
     background-color: #fff;
     margin-bottom: 20px;
 }
-
-@media (min-width: 500px) {
-    .post .post-colimg {
-        padding-left: 0;
-        padding-right: 0
-    };
-}
 .post h3 {
     font-size: 40px;
     font-weight: 300;

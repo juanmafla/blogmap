@@ -1,0 +1,44 @@
+.carousel h3 {
+    color:#BDBDBD;
+    font-family: "Crimson Text", serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+}
+
+@media (max-width:500px) {
+    .carousel h3 {
+        font-size: 44px;
+        line-height: 44px;
+    }
+}
+
+.carousel p {
+    color: #333;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+@media (max-width:500px) {
+    .carousel p {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+.carousel .carousel-indicators {
+    bottom: -70px;
+}
+
+@media (min-width: 992px) {
+    .carousel .carousel-control-prev {
+        left: -127px;
+    }
+    .carousel .carousel-control-next {
+        right: -127px;
+    }
+}

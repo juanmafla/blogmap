@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Article from './components/article/article'
-import ArticleRight from './components/article_right/article'
-import search from './images/search.svg';
+import Article from '../components/article/article';
+import ArticleRight from '../components/article_right/article';
+import Search from '../components/search/search';
 import './css/style.css';
 
 function InvestigationsPage() {
@@ -16,10 +16,7 @@ function InvestigationsPage() {
           </h1>
         </Col>
         <Col className="colsearch">
-          <div class="searchwrap">
-            <img src={search} alt="Search"></img>
-            <input type="text" placeholder="Search"></input>
-          </div>
+          <Search></Search>
         </Col>
       </Row>
 

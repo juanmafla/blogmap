@@ -1,0 +1,16 @@
+.vm_trans {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    font-family: "Crimson Text", serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 0;
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: none;
+}
+.vm_trans img {
+    margin-left: 30px;
+}

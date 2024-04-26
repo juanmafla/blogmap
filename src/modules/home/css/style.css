@@ -1,0 +1,76 @@
+.countries h4 {
+    font-family: "Crimson Text", serif;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
+@media (max-width:500px) {
+    .countries h4 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+.numbers .number {
+    font-family: "Crimson Text", serif;
+    font-weight: 900;
+    font-size: 200px;
+    color: #F2F2F2;
+    line-height: 166px;
+    margin: 0;
+}
+
+@media (max-width:500px) {
+    .numbers .number {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+.numbers .num-text {
+    display: grid;
+    align-items: center;
+}
+
+.numbers p {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.mission h3 {
+    color: #BDBDBD;
+    font-family: "Crimson Text", serif;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+@media (max-width:500px) {
+    .mission h3 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+.mission p {
+    color: #000;
+    font-family: "Crimson Text", serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.mission .missionbg {
+    background-color: #E3E9E3;
+}
+
+.countries, .numbers, .mission {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}

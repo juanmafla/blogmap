@@ -1,8 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from '../components/button/button';
 import featured from './images/featured.jpg';
-import icoshape from './images/ico-shape.svg';
 import './css/style.css';
 
 function ArticlePage() {
@@ -22,7 +22,9 @@ function ArticlePage() {
             <Col><h3 className="quote mt-3">"I Believe everyone can be a designer as long they <span>love to create</span> design and have obsession to create something great"</h3></Col>
           </Row>
           <Row>
-            <Col><a className="vm" href="/">Related Data <img src={icoshape} alt="Related Data"></img></a></Col>
+            <Col>
+              <Button text="Related Data" url="/"></Button>
+            </Col>
           </Row>
         </Col>
         <Col lg={1}></Col>

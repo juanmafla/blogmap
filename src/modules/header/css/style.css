@@ -5,10 +5,13 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-#header .nav-link {
+#header .nav-link, #header .nav-item {
     margin-right: 50px;
 }
-#header .nav-link:last-child {
+#header .nav-item .nav-link {
+    margin-right: 0px;
+}
+#header .nav-link:last-child, #header .nav-item:last-child {
     margin-right: 0;
 }
 #header .nav-link {
