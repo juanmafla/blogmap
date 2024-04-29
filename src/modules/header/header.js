@@ -8,8 +8,7 @@ import './css/style.css';
 
 function Header() {
   return (
-    <header id="header">
-      <Navbar expand="lg">
+      <Navbar id="header" expand="lg" sticky="top">
         <Container>
           <Navbar.Brand as={Link} to="/" ><img src={logo} alt="Logo" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -55,7 +54,6 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </header>
   );
 }
 

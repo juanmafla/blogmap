@@ -10,12 +10,12 @@ function Slide() {
     <Carousel>
         <Carousel.Item >  
             <Row>
-                <Col lg={4}  className="mb-5 text-center text-lg-start mb-lg-0">
+                <Col lg={4}  className="order-2 order-lg-1 mt-5 text-center text-lg-start mt-lg-0">
                     <h3>Title for First Slider</h3>
                     <p>subtitle</p>
                     <Button text="Visit .Data Map" url="/article"></Button>
                 </Col>
-                <Col lg={8} >
+                <Col lg={8} className="order-1 order-lg-2">
                     <img className="img-fluid" src={map} alt="Post"></img>   
                 </Col>
             </Row>
@@ -23,12 +23,12 @@ function Slide() {
 
         <Carousel.Item>  
             <Row>
-                <Col lg={4} className="mb-5 text-center text-lg-start mb-lg-0">
+                <Col lg={4} className="order-2 order-lg-1 mt-5 text-center text-lg-start mt-lg-0">
                     <h3>Title for First Slider</h3>
                     <p>subtitle</p>
                     <Button text="Visit .Data Map" url="/article"></Button>
                 </Col>
-                <Col lg={8} >
+                <Col lg={8} className="order-1 order-lg-2">
                     <img className="img-fluid" src={map} alt="Post"></img>   
                 </Col>
             </Row>
@@ -36,12 +36,12 @@ function Slide() {
 
         <Carousel.Item>  
             <Row>
-                <Col lg={4} className="mb-5 text-center text-lg-start mb-lg-0">
+                <Col lg={4} className="order-2 order-lg-1 mt-5 text-center text-lg-start mt-lg-0">
                     <h3>Title for First Slider</h3>
                     <p>subtitle</p>
                     <Button text="Visit .Data Map" url="/article"></Button>
                 </Col>
-                <Col lg={8} >
+                <Col lg={8} className="order-1 order-lg-2">
                     <img className="img-fluid" src={map} alt="Post"></img>   
                 </Col>
             </Row>

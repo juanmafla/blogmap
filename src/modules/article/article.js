@@ -29,7 +29,7 @@ function ArticlePage() {
         </Col>
         <Col lg={1}></Col>
         <Col lg={7}>
-          <Row className="mt-5 mb-3">
+          <Row className="mt-5 mt-lg-0 mb-3">
             <Col lg={1} md={1} xs={1}>
               <p className="cap">E</p>
             </Col>

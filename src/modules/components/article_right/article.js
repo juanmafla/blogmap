@@ -8,13 +8,13 @@ function ArticleRight() {
   return (
     <div className="post">
       <Row>
-        <Col lg={5} className="px-5 pb-1 pt-1 order-2">
+        <Col lg={7} className="mt-3 mt-lg-0 px-5 pb-1 pt-1 order-2">
           <h3>Article </h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 
           <Button text={'View More'} url={'/article'}></Button> 
         </Col>
-        <Col lg={7} className="post-colimg text-center order-1">
+        <Col lg={5} className="post-colimg order-1 text-center text-lg-start">
           <img className="img-fluid" src={egypt} alt="Post"></img>
         </Col>
       </Row>

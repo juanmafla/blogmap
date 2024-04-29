@@ -8,8 +8,8 @@
     line-height: 46px;
     font-family: "EB Garamond", serif;
     color: #BDBDBD;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 .post p {
     font-size: 16px;
@@ -26,7 +26,7 @@
     color: #333333;
     text-transform: uppercase;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 0px;
     display: inline-block;
 }
 .post .vm img {
